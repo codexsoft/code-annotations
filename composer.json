@@ -1,0 +1,25 @@
+{
+    "name": "codexsoft/code-annotations",
+    "license": "MIT",
+    "description": "Annotations helper",
+    "require": {
+        "php": "^7.2.0",
+        "codexsoft/code-classes": "^1.0",
+        "doctrine/annotations": "~1.0",
+        "monolog/monolog": "^1.23"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6",
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodexSoft\\Code\\Annotations\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": ["vendor/", "tests/unit/"]
+        }
+    }
+}
